@@ -1,0 +1,7 @@
+{% extends "base" %}
+{% block content %}
+<div class='text-center'>
+<h1>Welcome</h1>
+<a href='/get_number' class='btn btn-primary btn-lg'>Get ticket</a>
+</div>
+{% endblock content %}

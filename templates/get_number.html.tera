@@ -1,0 +1,8 @@
+{% extends "base" %}
+{% block content %}
+<div class='text-center'>
+<h1>Your queue number:</h1>
+<h2>23</h2>
+<a href='/welcome' class='btn btn-primary btn-lg'>Done</a>
+</div>
+{% endblock content %}

@@ -1,0 +1,12 @@
+{% extends "base" %}
+{% block pagehead %}
+<title>{{ title }}</title>
+{% endblock pagehead %}
+{% block content %}
+<h1>Rustyque</h1>
+<ul class='list-unstyled text-center'>
+<li class='m-1'><a href='/welcome' class='btn btn-primary btn-lg'>Welcome</a></li>
+<li class='m-1'><a href='/display' class='btn btn-primary btn-lg'>Display</a></li>
+<li class='m-1'><a href='/counter' class='btn btn-primary btn-lg'>Counter</a></li>
+</ul>
+{% endblock content %}
